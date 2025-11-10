@@ -11,6 +11,7 @@
         nixpkgs.follows = "nixpkgs";
         systems.follows = "systems";
         hyprutils.follows = "hyprutils";
+        hyprwayland-scanner.follows = "hyprwayland-scanner";
       };
     };
 
@@ -49,6 +50,15 @@
         hyprgraphics.follows = "hyprgraphics";
         hyprlang.follows = "hyprlang";
         hyprutils.follows = "hyprutils";
+        hyprwayland-scanner.follows = "hyprwayland-scanner";
+      };
+    };
+
+    hyprwayland-scanner = {
+      url = "github:hyprwm/hyprwayland-scanner";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        systems.follows = "systems";
       };
     };
   };
