@@ -66,3 +66,4 @@ pkg_check_modules(
 add_subdirectory(utils/dialog)
 add_subdirectory(utils/donate-screen)
 add_subdirectory(utils/update-screen)
+add_subdirectory(utils/welcome)
