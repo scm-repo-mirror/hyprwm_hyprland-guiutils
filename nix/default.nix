@@ -11,6 +11,7 @@
   hyprutils,
   libdrm,
   pixman,
+  libxkbcommon,
   version ? "0",
 }:
 let
