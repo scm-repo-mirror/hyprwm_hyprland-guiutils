@@ -185,6 +185,8 @@ int main(int argc, char** argv, char** envp) {
         backend->destroy();
     });
 
+    state.textbox->focus(true);
+
     window->open();
 
     backend->enterLoop();
