@@ -58,7 +58,7 @@ pkg_check_modules(
   REQUIRED
   IMPORTED_TARGET
   hyprlang>=0.6.0
-  hyprutils>=0.2.4
+  hyprutils>=0.10.2
   hyprtoolkit>=0.4.0
   pixman-1
   xkbcommon
